@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>AjaxZip3 Tests</title>
+    <link rel="stylesheet" type="text/css" href="../bower_components/mocha/mocha.css">
+    <script src="../bower_components/mocha/mocha.js"></script>
+    <script src="../bower_components/chai/chai.js"></script>
+
+    <script src="../bower_components/ajaxzip3/ajaxzip3-source.js"></script>
+
+    <script>mocha.setup("bdd");</script>
+
+    <script src="test.js"></script>
+  </head>
+  <body>
+    <form>
+      <input id="zip1" type="text" name="zip1">
+      <input id="zip2" type="text" name="zip2">
+      <input id="pref" type="text" name="pref">
+      <input id="addr" type="text" name="addr">
+      <input id="area" type="text" name="area">
+      <input id="strt" type="text" name="strt">
+    </form>
+
+    <div id="mocha"></div>
+
+    <script>
+      window.onload = function() {
+        mocha.checkLeaks();
+        mocha.run();
+      };
+    </script>
+  </body>
+</html>

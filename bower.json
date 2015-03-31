@@ -1,0 +1,22 @@
+{
+  "name": "ajaxzip3-test",
+  "version": "0.0.1",
+  "authors": [
+    "Mayoto Yoshida <2getjp@gmail.com>"
+  ],
+  "description": "ajaxzip3 tests",
+  "main": "test.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "chai": "~2.2.0",
+    "mocha": "~2.2.1",
+    "ajaxzip3": "git@github.com:ajaxzip3/ajaxzip3.github.io.git"
+  }
+}
